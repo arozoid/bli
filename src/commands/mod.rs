@@ -11,11 +11,6 @@ pub mod restock;
 pub mod query;
 pub mod survey;
 pub mod clean;
-
-pub mod shell;
-pub mod run;
-
 pub mod status;
-pub mod list;
 
 pub mod source;

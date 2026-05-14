@@ -1,9 +1,9 @@
 use anyhow::Result;
 
-use crate::cli::COMMANDArgs;
+use crate::cli::SourceArgs;
 
-pub fn run(args: COMMANDArgs) -> Result<()> {
-    println!("{args:#?}");
+pub fn run(args: SourceArgs) -> Result<()> {
+    println!("{args}");
 
     Ok(())
 }

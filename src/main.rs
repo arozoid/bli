@@ -23,9 +23,8 @@ fn main() -> anyhow::Result<()> {
         Commands::Clean => commands::clean::run()?,
 
         Commands::Status => commands::status::run()?,
-        Commands::List => commands::list::run()?,
 
-        // Commands::Source(args) => commands::source::run(args)?,
+        Commands::Source(args) => commands::source::run(args)?,
     }
 
     Ok(())
